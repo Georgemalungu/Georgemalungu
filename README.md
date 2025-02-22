@@ -3,9 +3,7 @@ EB3/61598/22
 code used c++
 
 
-runtime 
-Enter a non-negative integer: 10
-Iterative Factorial of 10 is 3628800
-Execution time (iterative): 0.000005 seconds
-Recursive Factorial of 10 is 3628800
-Execution time (recursive): 0.000008 seconds
+The program prompts the user to enter a positive integer.
+For both the iterative and recursive methods, it measures the time taken for the calculation using chrono, which is part of the C++11 standard.
+It then displays the calculated factorial and the time taken for each method.
+
